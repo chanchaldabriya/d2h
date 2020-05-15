@@ -1,0 +1,62 @@
+{
+    "sat_tv": {
+        "operator_name": "SatTV",
+        "base_packs": {
+            "gold": {
+                "name": "Gold",
+                "alias": "G",
+                "channels_content": "Zee, Sony, Star Plus, Discovery, NatGeo",
+                "price": 100,
+                "channels": ["ch1", "ch2", "ch3", "ch4", "ch5"],
+                "id": "gold"
+            },
+            "silver": {
+                "name": "Silver",
+                "alias": "S",
+                "channels_content": "Zee, Sony, Star Plus",
+                "price": 50,
+                "channels": ["ch1", "ch2", "ch3"],
+                "id": "silver"
+            }
+        },
+        "channels": {
+            "ch1": {
+                "name": "Zee",
+                "price": 10,
+                "id": "ch1"
+            },
+            "ch2": {
+                "name": "Sony",
+                "price": 15,
+                "id": "ch2"
+            },
+            "ch3": {
+                "name": "Star Plus",
+                "price": 20,
+                "id": "ch3"
+            },
+            "ch4": {
+                "name": "Discovery",
+                "price": 10,
+                "id": "ch4"
+            },
+            "ch5": {
+                "name": "NatGeo",
+                "price": 20,
+                "id": "ch5"
+            }
+        },
+        "services": {
+            "learn_english": {
+                "name": "Learn english",
+                "id": "learn_english",
+                "price": 200
+            },
+            "learn_cooking": {
+                "name": "Learn cooking",
+                "id": "learn_cooking",
+                "price": 100
+            }
+        }
+    }
+}

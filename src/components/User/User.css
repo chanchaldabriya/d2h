@@ -1,0 +1,10 @@
+.User {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    background-color: white;
+    color: black;
+    padding: 7px;
+    align-items: flex-start;
+}

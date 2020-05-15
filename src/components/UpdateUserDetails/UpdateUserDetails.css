@@ -1,0 +1,22 @@
+.UpdateUserDetails-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.UpdateUserDetails-container .Section {
+    height: 70%;
+    width: 50%;
+}
+
+.UpdateUserDetails {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.UpdateUserDetails-btn  {
+    width: 40%;
+    margin: 5px 0;
+}

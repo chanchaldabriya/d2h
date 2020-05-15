@@ -1,0 +1,12 @@
+.Checklist-list {
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+.Checklist-list-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.Checklist-btn {
+    margin: 0 10px
+}

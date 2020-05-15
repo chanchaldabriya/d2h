@@ -1,0 +1,38 @@
+.subscribe-btn {
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
+    font-size: 1.1rem;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    outline: none;
+}
+
+.subscribe-btn:hover {
+    background-color: var(--main-color);
+    color: white;
+    cursor: pointer;
+}
+
+.subscribe-btn[disabled] {
+    border: 2px solid #ccc;
+    color: #ccc;
+}
+
+.subscribe-btn[disabled]:hover {
+    background-color: transparent;
+}
+
+.subscribe-btn.already-subscribed,
+.subscribe-btn.already-subscribed:hover {
+    background-color: #45AA4C;
+    color: white;
+    border-color: transparent;
+}
+
+.subscribe-input {
+    font-size: 1rem;
+    border-radius: 5px;
+    margin: 10px 0;
+    outline: none;
+}

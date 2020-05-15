@@ -1,0 +1,31 @@
+.Menu {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.Menu-Item {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 25%;
+    border-radius: 5px;
+    background-color: var(--main-color);
+    padding: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+    color: white;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.0125), 0 1px 1px rgba(0,0,0,0);
+}
+
+.Menu-Item-title {
+    flex: 2;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.Menu-Item-subtitle {
+    flex: 1;
+    font-size: 0.8rem;
+}

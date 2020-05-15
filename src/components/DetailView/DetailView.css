@@ -1,0 +1,25 @@
+.DetailView {
+    padding: 10px;
+    height: 100vh;
+    display: flex;
+}
+
+.DetailView-left {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.DetailView-left,
+.DetailView-right {
+    flex: 1;
+    height: 90%;
+}
+
+.DetailView-right {
+    border-radius: 10px;
+}
+
+.DetailView .Section {
+    flex: 1;
+}

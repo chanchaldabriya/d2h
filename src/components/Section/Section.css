@@ -1,0 +1,28 @@
+.Section {
+    border-radius: 10px;
+    text-align: start;
+    padding: 0 10px;
+    color: black;
+    height: 100%;
+    width: 30%;
+    overflow: auto;
+}
+
+.Section-inner {
+    border-radius: 10px;
+    background-color: white;
+    height: 100%;
+}
+
+.Section-header {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    /* border: 5px solid var(--main-color);
+    border-width: 5px 0px; */
+}
+
+.Section-subtitle {
+    font-size: 0.8em;
+    color: #999;
+}

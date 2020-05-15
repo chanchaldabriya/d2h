@@ -1,0 +1,13 @@
+.Recharge {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.Recharge-input {
+    width: 40%;
+}
+
+.Recharge-button {
+    width: 30%;
+}
